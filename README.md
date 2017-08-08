@@ -1,6 +1,6 @@
 # Automatic-Action-Annotation
 
-This folder contains demo code for our CVIU Submission, “Automatic Action Annotation using Weakly Labeled Videos".
+This folder contains demo code for our Journal of Computer Vision and Image Understanding (CVIU) paper: “Automatic Action Annotation using Weakly Labeled Videos".
 
 Since our code has several components, we have included separate files for each component; some of them can be run side by side.
 Please follow the following steps to run code files
