@@ -6,7 +6,7 @@ Since our code has several components, we have included separate files for each 
 Please follow the following steps to run code files
 
 
-1. Use "Script_Saliency image.m" to compute Saliency in each frame of the video.  (Section 3.2 of the paper)
+1. Use "Script_Saliency image.m" to compute Saliency in each frame of the video. To compute Saliency, please code available at: http://www.vision.caltech.edu/~harel/share/gbvs.php  (Section 3.2 of the paper)
 2. Use "Calculate_opticalflow_flowMask.m"  to compute optical_flow Mask in each frame of the video.  (Section 3.2 of the paper)
 3. Use "Calculate_3DMRF_MotionSaliency.m" to compute smoothed motion saliency in each frame of the video  (Section 3.2 of the paper)
 4. Compute Action proposal in each video using code here: https://github.com/jvgemert/apt  (Section 3.1 of the paper)
