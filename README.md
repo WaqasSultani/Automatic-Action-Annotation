@@ -13,7 +13,7 @@ Please follow the following steps to run code files
 5. Use "Calculate_Motion_Score_CV16IA.m" to compute motion score for each proposal in the video. (Section 3.2 of the paper)
 6. Compute Improved dense Trajectory features in each video using code here: http://lear.inrialpes.fr/~wang/improved_trajectories (Section 3.3 of the paper)
 7. Compute Bag of Words representation of each of top ranked proposal. You can use code "Script_Kmeans_CodeBook.m" to make codebook and "Proposal_Histogram_SPM.m" to make histogram of each proposal. For this purpose, you can also use Online available codes (e.g., vlfeat).(Section 3.3 of the paper)
-8. Compute distance between histograms across different videos of the same action, use "Compute_Distance_Matrcies." (Section 3.3 of the paper)
+8. Compute distance between histograms across different videos of the same action, use "Compute_Distance_Matrices." (Section 3.3 of the paper)
 9.***
 10. Use "Compute_ProposalClus_forHung.m" to cluster features within each action proposal.(Section 3.3 of the paper)
 11. Use "Compute_Distance_Hung.m" to do Bipartite matching and find the distance between proposals between different video.(Section 3.3 of the paper)
