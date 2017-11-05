@@ -66,10 +66,12 @@ for ifile=1:length(All_Files)
         load(FilePath_BBX);
         
         BBX_Array=zeros(nFr,4,length(BBX));
-        
+        % BBX is a cell array. For instance, BBX{1} contains an action tube in the formate:  [frame number, x1 ,y1, x2, y2]. 
+	% Line 71-95 is to change the format of proposals so that we can use Matlab built-in functions
         for ibbx=1:length(BBX)
             ibbx;
             A1=round(BBX{ibbx})';
+	    % We add 1 because the proposal were calculated in Python and the first index in the Python is 0 while in the Matlab it is 1. 
             A1=A1+1;
             BBX_Frames=A1(:,1)';
             
