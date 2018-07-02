@@ -289,7 +289,7 @@ for iAction=1:10
              
              Gauss_BBX=Loc_Prior;
              
-             Com2=(1*Sim_dtf+Sim_Shape+0*Sim_hung).*Length_Prior;
+             Com2=(1*Sim_dtf+Sim_Shape+Sim_hung).*Length_Prior;
             
 %              Com2=(Sim_dtf+0*Sim_hung).* Length_Prior;%.*Loc_Prior;
 
